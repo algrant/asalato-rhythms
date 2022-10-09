@@ -89,7 +89,7 @@ class AsalatoTwoHand:
         reg2 = reg + reg
         best = reg
         for i in range(len(reg)):
-            n = reg2[i : i + len(reg)]
+            n = reg2[i: i + len(reg)]
             if n < best:
                 best = n
 
